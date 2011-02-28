@@ -9,6 +9,7 @@
 \alias{clean}
 \alias{un_order_chromosome_by_cor}
 \alias{un_order_chromosome_by_reco}
+\alias{un_drop_markers}
 
 \title{Internal basicQtl functions}
 

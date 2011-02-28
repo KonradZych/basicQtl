@@ -1,7 +1,5 @@
 \name{utilities}
 \alias{persp_qtl_map}
-\alias{un_recombination}
-\alias{makebinary}
 \title{utilities - ploting routine and others}
 
 \description{
@@ -9,52 +7,23 @@
 }
 
 \usage{
-	\itemize{
-		\item{persp_qtl_map(genotypes, result_matrix, output_file)}
-		\item{un_recombination(data_matrix)}
-		\item{makebinary(data_matrix)}
-	}
+	persp_qtl_map(genotypes, result_matrix, output_file)
 }
 
 \arguments{
-  \itemize{
-  \item{persp_qtl_map}
-  \itemize{
-	\item{genotypes} - matrix containing genotypic data
-	\item{result_matrix} - matrix containing QTL mapping data
-	\item{output_file} - name of the output image file
+	\item{genotypes}{ - matrix containing genotypic data}
+	\item{result_matrix}{ - matrix containing QTL mapping data}
+	\item{output_file}{ - name of the output image file}
   }
-  \item{un_recombination}
-  \itemize{
-	\item{data_matrix} - matrix containing numeric data
-  }
-  \item{makebinary}
-  \itemize{
-	\item{data_matrix} - matrix containing numeric data
-  }
-  }
-}
+
 
 \details{
 	No Details.
 }
 
 \value{
-  \itemize{
-  \item{persp_qtl_map}
-  \itemize{
-	\item{return} - image written to file, no return
+	\item{return}{ - image written to file, no return}
   }
-  \item{un_recombination}
-  \itemize{
-	\item{return} - matrix containing numeric data
-  }
-  \item{makebinary}
-  \itemize{
-	\item{return} - matrix containing numeric data
-  }
-  }
-}
 
 \references{
   TODO
