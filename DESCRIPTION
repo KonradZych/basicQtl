@@ -1,0 +1,11 @@
+Package: basicQtl
+Version: 0.0.1
+Date: 21 Feb 2011
+Title: QTL mapping and marker ordering
+Author: Konrad Zych <konrad.zych@uj.edu.pl>
+Maintainer: Konrad Zych <konrad.zych@uj.edu.pl>
+Depends: R (>= 1.8.0), 
+Description: Very simple qtl mapping and genotype markers ordering of messed data
+License: GPL 3
+LazyLoad: yes
+LazyData: yes
