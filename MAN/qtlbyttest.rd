@@ -30,9 +30,13 @@
 }
 
 \seealso{
-  TODO
+    \itemize{
+      \item \code{\link{heatmapqtl}} - Basic QTL mapping currently done using qtlbyttest for every marker in dataset
+      \item \code{\link{pathway}} - Basic pathway creation using single marker
+    }
 }
 
 \examples{
-  #TODO
+  res <- qtlbyttest(phenotypes,genotypes,2)
+  plot(res)
 }

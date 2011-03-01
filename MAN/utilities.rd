@@ -36,9 +36,13 @@
 }
 
 \seealso{
-  TODO
+\itemize{
+	  \item \code{\link{makebinary}} - Produces binary matrix from dataset by splitting it by specified treshold
+	  \item \code{\link{un_recombination}} - Calculates recombination factor between two markers
+    }
 }
 
 \examples{
-  #TODO
+  	result_binary <- heatmapqtl(makebinary(clean(phenotypes)),genotypes)
+	persp_qtl_map(genotypes,result_binary,"image.png")
 }

@@ -36,9 +36,14 @@
 }
 
 \seealso{
-  TODO
+    \itemize{
+      \item \code{\link{qtlbyttest}} - Single marker mapping by using t-test statistics
+      \item \code{\link{pathway}} - Basic pathway creation using single marker
+	  \item \code{\link{heatmapqtl}} - Basic QTL mapping currently done using qtlbyttest for every marker in dataset
+	  }
 }
 
 \examples{
-  #TODO
+  qtlAnalysis ("D:/data","genotypes.txt","phenotypes.txt","QTL_map.png")
+  #this will work only for me;p
 }

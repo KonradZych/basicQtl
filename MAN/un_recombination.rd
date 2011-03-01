@@ -28,9 +28,12 @@
 }
 
 \seealso{
-  TODO
+\itemize{
+      \item \code{\link{persp_qtl_map}} - produces nice and highly informative perspective plot of QTL map
+	  \item \code{\link{un_recombination}} - Calculates recombination factor between two markers
+    }
 }
 
 \examples{
-  #TODO
+  un_reco <- un_recombination(un_matrix)
 }

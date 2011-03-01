@@ -29,9 +29,12 @@
 }
 
 \seealso{
-  TODO
-}
+	\itemize{
+   \item \code{\link{qtlbyttest}} - Single marker mapping by using t-test statistics
+      \item \code{\link{pathway}} - Basic pathway creation using single marker
+	  }}
 
 \examples{
-  #TODO
+  result_binary<-heatmapqtl(makebinary(clean(phenotypes)),genotypes)
+  image(result_binary)
 }

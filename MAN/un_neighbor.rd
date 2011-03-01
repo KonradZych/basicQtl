@@ -35,9 +35,11 @@
 }
 
 \seealso{
-  TODO
+  none
 }
 
 \examples{
-  #TODO
+  un_ord <- un_neighbor(un_matrix,1,1000,5)
+  un_ord_cor <- cor(un_ord,use="pairwise.complete.obs")
+  image(un_ord_cor)
 }
