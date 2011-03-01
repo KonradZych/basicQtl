@@ -1,4 +1,9 @@
 \name{qtlAnalysis}
+\alias{qtlAnalysis}
+\alias{working_dir}
+\alias{genotypes_file}
+\alias{phenotypes_file}
+\alias{output_image_file}
 \title{Basic QTL mapping}
 
 \description{

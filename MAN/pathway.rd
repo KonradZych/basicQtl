@@ -1,13 +1,15 @@
 \name{pathway}
+\alias{pathway}
+\alias{marker}
 \title{linear pathway creation}
 \description{
 	Basic QTL mapping.
 }
 \usage{
-	pathway(result_matrix,marker)
+	pathway(results,marker)
 }
 \arguments{
-	\item{result_matrix}{ - matrix containing qtl data}
+	\item{results}{ - matrix containing qtl data}
 	\item{marker}{ - number of marker to use}
 }
 \details{

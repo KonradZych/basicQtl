@@ -1,13 +1,14 @@
 \name{un_recombination}
+\alias{un_recombination}
 \title{calculating recombination factor}
 \description{
 	Recombination factor calculation.
 }
 \usage{
-	un_recombination(data_matrix)
+	un_recombination(chrom_matrix)
 }
 \arguments{
-	\item{data_matrix}{ - matrix containing numeric data}
+	\item{chrom_matrix}{ - matrix containing numeric data}
 }
 \details{
 	No Details.

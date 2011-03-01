@@ -1,13 +1,15 @@
 \name{makebinary}
+\alias{makebinary}
+\alias{matrix_to_be_made_binary}
 \title{making binary matrix}
 \description{
 	Splitting matrix into binary data using treshold value.
 }
 \usage{
-	makebinary(data_matrix)
+	makebinary(matrix_to_be_made_binary)
 }
 \arguments{
-	\item{data_matrix}{ - matrix containing numeric data}
+	\item{matrix_to_be_made_binary}{ - matrix containing numeric data}
 }
 \details{
 	No Details.

@@ -1,10 +1,11 @@
 \name{heatmapqtl}
+\alias{heatmapqtl}
 \title{creating QTL map}
 \description{
 	Basic QTL mapping.
 }
 \usage{
-	qtlbyttest(phenotypes,genotypes,trait)
+	heatmapqtl(phenotypes,genotypes)
 }
 \arguments{
 		\item{phenotypes}{ - matrix containing phenotypic data}

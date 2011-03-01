@@ -1,4 +1,9 @@
 \name{un_neighbor}
+\alias{un_neighbor}
+\alias{chrom_matrix}
+\alias{method}
+\alias{nr_iterations}
+\alias{groups}
 \title{ordering markers on chromosome}
 
 \description{

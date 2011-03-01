@@ -1,4 +1,6 @@
 \name{qtlbyttest}
+\alias{qtlbyttest}
+\alias{trait}
 \title{using t-test to QTL on single trait}
 \description{
 	Basic QTL mapping.

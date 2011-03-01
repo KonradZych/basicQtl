@@ -1,5 +1,7 @@
 \name{utilities}
+\alias{utilities}
 \alias{persp_qtl_map}
+\alias{output_file}
 \title{utilities - ploting routine and others}
 
 \description{
@@ -7,12 +9,12 @@
 }
 
 \usage{
-	persp_qtl_map(genotypes, result_matrix, output_file)
+	persp_qtl_map(genotypes, result_binary, output_file)
 }
 
 \arguments{
 	\item{genotypes}{ - matrix containing genotypic data}
-	\item{result_matrix}{ - matrix containing QTL mapping data}
+	\item{result_binary}{ - matrix containing QTL mapping data}
 	\item{output_file}{ - name of the output image file}
   }
 
